@@ -13,7 +13,7 @@ const NewUser = (props) => {
         <div className="new-user-container1">
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-700h.png"
+            src="/playground_assets/bigBAJA.png"
             className="new-user-image"
           />
           <span className="new-user-text">Create Username</span>
@@ -49,7 +49,7 @@ const NewUser = (props) => {
             autoComplete="new-password"
             className="new-user-textinput2 input"
           />
-          <Link href="/landing" id="Navigation" name="newUsersubmit">
+          <Link href="/" id="Navigation" name="newUsersubmit">
             <a className="new-user-link">Submit</a>
           </Link>
         </div>

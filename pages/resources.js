@@ -11,18 +11,18 @@ const Resources = (props) => {
           <meta property="og:title" content="Resources - BAJA Security" />
         </Head>
         <header className="resources-container1">
-          <Link href="/">
+          <Link href="/home">
             <a className="resources-link">
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/smallBAJA.png"
                 className="resources-image"
               />
             </a>
           </Link>
           <div className="resources-container2">
-            <Link href="/" id="homeNav" name="Home button">
+            <Link href="/home" id="homeNav" name="Home button">
               <a className="resources-link1 heading2 button">Home</a>
             </Link>
             <Link href="/resources" id="resourcesNav" name="Resources button">
@@ -64,7 +64,7 @@ const Resources = (props) => {
           </span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/smallBAJA.png"
             className="resources-image1"
           />
         </footer>

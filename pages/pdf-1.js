@@ -11,18 +11,18 @@ const Pdf1 = (props) => {
           <meta property="og:title" content="Pdf-1 - BAJA Security" />
         </Head>
         <header className="pdf1-container1">
-          <Link href="/">
+          <Link href="/home">
             <a className="pdf1-link">
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/smallBAJA.png"
                 className="pdf1-image"
               />
             </a>
           </Link>
           <div className="pdf1-container2">
-            <Link href="/" id="homeNav" name="Home button">
+            <Link href="/home" id="homeNav" name="Home button">
               <a className="pdf1-link1 button heading2">Home</a>
             </Link>
             <Link href="/resources" id="resourcesNav" name="Resources button">
@@ -63,7 +63,7 @@ const Pdf1 = (props) => {
           <span className="pdf1-text">Website created by BAJA Security</span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/smallBAJA.png"
             className="pdf1-image1"
           />
         </footer>

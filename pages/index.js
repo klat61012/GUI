@@ -10,6 +10,7 @@ const Landing = (props) => {
           <title>Landing - BAJA Security</title>
           <meta property="og:title" content="Landing - BAJA Security" />
         </Head>
+        <H1>test</H1>
         <div className="landing-container1">
           <img
             alt="image"

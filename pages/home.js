@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import ArrowCircleLeftOutlinedIcon from '@mui/icons-material/ArrowCircleLeftOutlined';
+import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOutlined';
 
 const Home = (props) => {
   return (
@@ -39,6 +41,11 @@ const Home = (props) => {
 {/*updates sidebar begin */}
         <div id="Updates-Sidebar" className="home-sidebar">
           <div className="home-container03">
+            <span className ="sidebar_icon">
+              <ArrowCircleRightOutlinedIcon
+              >
+              </ArrowCircleRightOutlinedIcon>
+            </span>
             <h1 className="home-text">Updates</h1>
           </div>
         </div>
@@ -284,19 +291,24 @@ const Home = (props) => {
           }
           .home-text {
             top: 15px;
-            left: 150px;
+            left: 0px;
             color: var(--dl-color-logocolors-lightblue3);
             right: 0px;
             width: 183px;
+            margin: auto;
             position: absolute;
             font-size: 32px;
-            text-align: right;
+            text-align: center;
             font-family: Industry Inc Base;
             font-weight: 700;
             line-height: 1.15;
             letter-spacing: 3px;
             text-transform: uppercase;
             text-decoration: none;
+          }
+          .sidebar_icon {
+            color: var(--dl-color-logocolors-lightblue3);
+            position: absolute;
           }
 {/*updates sidebar end */}
           .home-container04 {

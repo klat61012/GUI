@@ -36,11 +36,13 @@ const Home = (props) => {
             </Link>
           </div>
         </header>
+{/*updates sidebar begin */}
         <div id="Updates-Sidebar" className="home-sidebar">
           <div className="home-container03">
             <h1 className="home-text">Updates</h1>
           </div>
         </div>
+{/*updates sidebar end*/}
         <div className="home-container04">
           <iframe
             src="https://www.youtube.com/embed/tgrEkag92zg"
@@ -257,6 +259,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-logocolors-yellow);
           }
+{/*updates sidebar begin */}
           .home-sidebar {
             width: 25%;
             height: 1188px;
@@ -264,7 +267,7 @@ const Home = (props) => {
             z-index: 2;
             align-self: flex-end;
             overflow-x: hidden;
-            transition: 0.5s;
+            transition: all 0.3s linear;
             align-items: center;
             flex-direction: column;
             justify-content: flex-start;
@@ -281,21 +284,21 @@ const Home = (props) => {
           }
           .home-text {
             top: 15px;
-            left: 0px;
+            left: 150px;
             color: var(--dl-color-logocolors-lightblue3);
             right: 0px;
             width: 183px;
-            margin: auto;
             position: absolute;
             font-size: 32px;
-            text-align: center;
+            text-align: right;
             font-family: Industry Inc Base;
             font-weight: 700;
             line-height: 1.15;
-            letter-spacing: 2.1px;
+            letter-spacing: 3px;
             text-transform: uppercase;
             text-decoration: none;
           }
+{/*updates sidebar end */}
           .home-container04 {
             top: 0px;
             left: 0px;
@@ -460,6 +463,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius8);
             padding-bottom: 1rem;
             text-transform: uppercase;
+            letter-spacing: 3px;
             text-decoration: none;
             background-color: var(--dl-color-logocolors-lightred);
           }

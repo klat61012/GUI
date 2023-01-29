@@ -1,12 +1,20 @@
 
 FROM node:16-alpine
-RUN mkdir -p /usr/app/
-WORKDIR /usr/app
 
-COPY ./ ./
+WORKDIR /app
+
+
+COPY node_modules ./node_modules
+COPY package-lock.json ./
+COPY package.json ./
 RUN npm install
+COPY pages ./pages
+COPY public ./public
+COPY styles ./styles
+COPY .next /.next
 
-RUN npm run build
 
-CMD ["npm", "start"]
-EXPOSE 5000
+
+
+CMD ["npm", "run", "dev"]
+EXPOSE 3000
